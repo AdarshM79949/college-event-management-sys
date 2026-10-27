@@ -1,0 +1,36 @@
+# Maven build output
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# Tool runtimes (downloaded by setup.bat)
+.tools/
+
+# Embedded H2 Database runtime files (schema_and_mock_data.sql is preserved)
+database/*.mv.db
+database/*.trace.db
+
+# Logs & temp
+*.log
+scratch/
+temp/
+tmp/
+
+# IDE / Editor configuration
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/launch.json
+
+# Local tooling & node_modules
+.opencode/
+node_modules/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store

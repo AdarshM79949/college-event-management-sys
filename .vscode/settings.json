@@ -1,0 +1,17 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.jdt.ls.java.home": "C:\\Users\\adars\\scoop\\apps\\openjdk21\\current",
+    "java.jdt.ls.lombokSupport.enabled": true,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "C:\\Users\\adars\\scoop\\apps\\openjdk17\\current",
+            "default": true
+        },
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Users\\adars\\scoop\\apps\\openjdk21\\current"
+        }
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
+}
